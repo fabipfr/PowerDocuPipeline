@@ -115,7 +115,7 @@ def main() -> None:
     cleanedSolutionPath:str = remove_guids_from_solution(solutionPath)
     cleanedSolutionPath = "C:\\Users\\FabianPfriem\\PipelineAutomation\\" + cleanedSolutionPath
 # run powerDocu
-    start_exe(powerDocuPath, f"\"-p {cleanedSolutionPath}\", \"-m\", \"-o {documentationOutputPath}\"")
+    #start_exe(powerDocuPath, f"\"-p {cleanedSolutionPath}\", \"-m\", \"-o {documentationOutputPath}\"")
 
 
 
